@@ -47,23 +47,6 @@ class MainActivity : AppCompatActivity() {
         cardAdapter = CardAdapter(this)
         recyclerView.adapter = cardAdapter
 
-//        RetrofitHttp.retrofitService.listPhotos().enqueue(object : Callback<ArrayList<CardResp>>{
-//            @SuppressLint("NotifyDataSetChanged")
-//            override fun onResponse(
-//                call: Call<ArrayList<CardResp>>,
-//                response: Response<ArrayList<CardResp>>
-//            ) {
-//                Logger.d("@@@CreateCardD", response.body().toString())
-//                cardAdapter.items = response.body()!!
-//                cardAdapter.notifyDataSetChanged()
-//            }
-//
-//            override fun onFailure(call: Call<ArrayList<CardResp>>, t: Throwable) {
-//                Logger.e("@@@CreateCardD", t.message.toString())
-//            }
-//
-//        })
-
         if (isInternetAvailable()){
             openRVOnline()
         }else{

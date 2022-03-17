@@ -108,6 +108,16 @@ class AddCardActivity : AppCompatActivity() {
             cardRoom = CardRoom(card_number = edt_card_number.text.toString(), month = edt_card_month.text.toString(), year = edt_card_year.text.toString(), cvv = edt_card_cvv.text.toString(), holder_name = edt_holder_name.text.toString(), isOnline = false)
         }
         RoomRepository(application).saveExamModel(cardRoom)
+
+        tv_card_number.text = ""
+        edt_card_number.text.clear()
+        tv_card_month.text = ""
+        edt_card_month.text.clear()
+        tv_card_year.text = ""
+        edt_card_year.text.clear()
+        tv_holder_name.text = ""
+        edt_holder_name.text.clear()
+        edt_card_cvv.text.clear()
     }
 
     private fun isInternetAvailable(): Boolean {
