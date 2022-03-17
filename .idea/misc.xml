@@ -6,8 +6,13 @@
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/drawable-anydpi/icon_add.xml" value="0.2169230769230769" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/drawable-anydpi/icon_center.xml" value="0.2169230769230769" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/drawable-anydpi/icon_close.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/drawable-anydpi/icon_switch.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/drawable-xhdpi/add_new_card_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/drawable/edt_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/layout/activity_add_card.xml" value="0.22" />
         <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/layout/activity_details.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/layout/activity_main.xml" value="0.75" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/PDPAndroidProjects/Android Advanced(6-modul)/FinalExamModul06(Kotlin)/app/src/main/res/layout/item_card.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
@@ -20,7 +25,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.75" />
+        <option name="scale" value="0.33" />
       </ProjectState>
     </option>
   </component>

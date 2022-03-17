@@ -17,6 +17,6 @@ interface RetrofitService {
 
     @Headers(headers)
     @POST("cards")
-    fun createEmployee(@Body cardModel: CardModel): Call<CardResp>
+    fun createEmployee(@Body cardResp: CardResp): Call<CardResp>
 
 }

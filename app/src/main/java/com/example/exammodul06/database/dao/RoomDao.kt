@@ -14,4 +14,7 @@ interface RoomDao {
     @Query("SELECT * FROM table_cards")
     fun getCardRoomList(): List<CardRoom>
 
+    @Query("UPDATE table_cards SET isOnline =:online WHERE id=:id")
+    fun updateCardRoom(id: Int, online: String)
+
 }

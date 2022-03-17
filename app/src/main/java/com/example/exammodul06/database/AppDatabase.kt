@@ -4,8 +4,6 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
-import com.example.exammodul06.database.converter.CardRespTypeConverter
 import com.example.exammodul06.database.dao.RoomDao
 import com.example.exammodul06.database.entity.CardRoom
 
