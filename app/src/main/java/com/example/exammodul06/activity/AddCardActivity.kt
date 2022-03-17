@@ -93,7 +93,7 @@ class AddCardActivity : AppCompatActivity() {
         if(isInternetAvailable()){
             cardRoom = CardRoom(card_number = edt_card_number.text.toString(), month = edt_card_month.text.toString(), year = edt_card_year.text.toString(), cvv = edt_card_cvv.text.toString(), holder_name = edt_holder_name.text.toString(), isOnline = true)
             val cardResp = CardResp(cardRoom.card_number, cardRoom.month, cardRoom.year, cardRoom.cvv, cardRoom.holder_name, "")
-            RetrofitHttp.retrofitService.createEmployee(cardResp).enqueue(object :
+            RetrofitHttp.retrofitService.createCard(cardResp).enqueue(object :
                 Callback<CardResp> {
                 override fun onResponse(call: Call<CardResp>, response: Response<CardResp>) {
                     Logger.d("@@@CreateCardD", response.body().toString())

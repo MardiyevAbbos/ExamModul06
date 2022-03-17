@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             for (cardRoom in cardRooms){
                 if (!cardRoom.isOnline){
                     val cardResp = CardResp(cardRoom.card_number, cardRoom.month, cardRoom.year, cardRoom.cvv, cardRoom.holder_name, "")
-                    RetrofitHttp.retrofitService.createEmployee(cardResp).enqueue(object : Callback<CardResp>{
+                    RetrofitHttp.retrofitService.createCard(cardResp).enqueue(object : Callback<CardResp>{
                         override fun onResponse(call: Call<CardResp>, response: Response<CardResp>) {
                             Logger.d("@@@CreateCardD", response.body().toString())
                         }
@@ -86,6 +86,7 @@ class MainActivity : AppCompatActivity() {
                         }
 
                     })
+                    RoomRepository(application).updateCardRoom(cardRoom.id!!, false)
                 }
             }
         }

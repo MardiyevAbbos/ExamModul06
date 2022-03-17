@@ -21,7 +21,7 @@ class RoomRepository(application: Application) {
         return roomDao.getCardRoomList()
     }
 
-    fun updateCardRoom(id: Int, online: String){
+    fun updateCardRoom(id: Int, online: Boolean){
         roomDao.updateCardRoom(id, online)
     }
 
